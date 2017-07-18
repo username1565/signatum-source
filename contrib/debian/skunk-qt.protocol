@@ -1,0 +1,11 @@
+[Protocol]
+exec=signatum-qt '%u'
+protocol=signatum
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

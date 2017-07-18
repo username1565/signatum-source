@@ -1,0 +1,2 @@
+debian/bin/signatumd usr/bin
+src/signatumd usr/lib/signatum
