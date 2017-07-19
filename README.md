@@ -1,9 +1,9 @@
 
-Mining Pools:
-https://pool.mn/sigt
-http://lpool.name
-https://onepool.online
-http://hashbag.cc
+Mining Pools:<br />
+https://pool.mn/sigt<br />
+http://lpool.name<br />
+https://onepool.online<br />
+http://hashbag.cc<br />
 
 Signatum Interim Wallet
 
