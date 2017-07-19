@@ -4,6 +4,7 @@ Contributed by user ex_mac: http://lpool.name/explorer/SIGT <br />
 
 
 Mining Pools:<br />
+https://sigt.suprnova.cc <br />
 https://pool.mn/sigt<br />
 http://lpool.name<br />
 https://onepool.online<br />
