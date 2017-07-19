@@ -1,3 +1,7 @@
+Explorer: <br />
+Official: http://explorer.signatum.download <br />
+Contributed by user ex_mac: http://lpool.name/explorer/SIGT <br />
+
 
 Mining Pools:<br />
 https://pool.mn/sigt<br />
