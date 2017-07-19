@@ -1,3 +1,6 @@
+Very detailed info about Signatum & mining written by user Dan Jensen<br />
+Link: http://cryptovore.com/2017/07/19/how-to-mine-signatum-sigt <br />
+
 Explorers: <br />
 Official: http://explorer.signatum.download <br />
 Contributed by user ex_mac: http://lpool.name/explorer/SIGT <br />
