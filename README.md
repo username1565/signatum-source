@@ -1,4 +1,4 @@
-Explorer: <br />
+Explorers: <br />
 Official: http://explorer.signatum.download <br />
 Contributed by user ex_mac: http://lpool.name/explorer/SIGT <br />
 
