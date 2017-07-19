@@ -1,4 +1,10 @@
 
+Mining Pools:
+https://pool.mn/sigt
+http://lpool.name
+https://onepool.online
+http://hashbag.cc
+
 Signatum Interim Wallet
 
 Development process
