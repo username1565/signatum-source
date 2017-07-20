@@ -12,6 +12,7 @@ https://pool.mn/sigt<br />
 http://lpool.name<br />
 https://onepool.online<br />
 http://hashbag.cc<br />
+http://yiimp.ccminer.org<br />
 
 Signatum Interim Wallet
 
