@@ -17,6 +17,11 @@ http://hashbag.cc<br />
 http://yiimp.ccminer.org<br />
 https://pool.coin-miners.info <br />
 
+Tor Links:<br />
+Node: 6jsbbxzfd5wyhs5i.onion<br />
+Site: ...coming up <br />
+
+
 Signatum Interim Wallet
 
 Development process
