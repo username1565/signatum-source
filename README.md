@@ -3,7 +3,8 @@ Link: http://cryptovore.com/2017/07/19/how-to-mine-signatum-sigt <br />
 Dan Jensen's SIGT Address: BKkg3vMESMNnX2f5SqkuNNgEDxDU7w5vzo <br />
 
 Explorers: <br />
-Official: http://explorer.signatum.download <br />
+Official 1: http://explorer.signatum.download <br />
+Official 2: http://explorer.signatum.io<br />
 Contributed by user ex_mac: http://lpool.name/explorer/SIGT <br />
 
 
