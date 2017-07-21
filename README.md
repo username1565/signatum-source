@@ -18,7 +18,7 @@ http://yiimp.ccminer.org<br />
 https://pool.coin-miners.info <br />
 
 Tor Links:<br />
-Node: 6jsbbxzfd5wyhs5i.onion<br />
+Node: addnode=6jsbbxzfd5wyhs5i.onion<br />
 Site: http://g6k4irnlnl57lusa.onion<br />
 Explorer: http://j7hjasnnxyjcjolf.onion/<br />
 
