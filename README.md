@@ -20,6 +20,7 @@ https://aikapool.com/sigt <br />
 
 Tor Links:<br />
 Node: addnode=6jsbbxzfd5wyhs5i.onion<br />
+Node: addnode=6fzxqhdvvevev75v.onion<br />
 Site: http://g6k4irnlnl57lusa.onion<br />
 Explorer: http://j7hjasnnxyjcjolf.onion<br />
 
