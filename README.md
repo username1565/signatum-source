@@ -22,6 +22,10 @@ Node: addnode=6jsbbxzfd5wyhs5i.onion<br />
 Site: http://g6k4irnlnl57lusa.onion<br />
 Explorer: http://j7hjasnnxyjcjolf.onion<br />
 
+Paper Wallet:<br />
+http://paperwallet.signatum.io <br />
+http://paperwallet.signatum.download <br />
+
 
 Signatum Interim Wallet
 
