@@ -28,6 +28,9 @@ Paper Wallet:<br />
 http://paperwallet.signatum.io <br />
 http://paperwallet.signatum.download <br />
 
+Exchange:<br />
+Cryptopia: https://www.cryptopia.co.nz/Exchange/?market=SIGT_BTC <br />
+
 
 Signatum Interim Wallet
 
