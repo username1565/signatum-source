@@ -4,7 +4,8 @@ Dan Jensen's SIGT Address: BKkg3vMESMNnX2f5SqkuNNgEDxDU7w5vzo <br />
 
 Explorers: <br />
 Official 1: http://explorer.signatum.download <br />
-Official 2: http://explorer.signatum.io<br />
+Official 2: http://explorer.signatum.io<br /> 
+Project Developed Official: http://internal.signatum.io <br />
 Contributed by user ex_mac: http://lpool.name/explorer/SIGT <br />
 
 
