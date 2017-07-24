@@ -34,6 +34,22 @@ http://paperwallet.signatum.download <br />
 Exchange:<br />
 Cryptopia: https://www.cryptopia.co.nz/Exchange/?market=SIGT_BTC <br />
 
+Signatum Roadmap ver-1<br />
+—---------------------<br />
+1. Project dedicated explorer ( to be released as OpenSource under GPL ) - completed 24th July 2017<br />
+2. Whitepaper - task assigned to community member Dan Jensen for writeup with dev team<br />
+3. Update Website<br />
+4. Signatum Marketplace where people can trade goods and services using SIGT currency<br />
+5. Better Anonymity network with more Tor nodes.<br />
+6. Signatum Web Wallet in NodeJS<br />
+7. SignatumPay<br />
+8. More Exchanges<br />
+9. Signatum Crowdfunding platform<br />
+10. Plan & Build a Signatum Foundation - suggested by community member Mr. Rick<br />
+11. Signatum Exchange - suggested by user EVP<br />
+
+Note: The suggestions will need more community input and support to be included in RoadMap ver-2<br />
+
 
 Signatum Interim Wallet
 
