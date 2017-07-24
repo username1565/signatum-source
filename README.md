@@ -19,6 +19,7 @@ http://hashbag.cc<br />
 http://yiimp.ccminer.org<br />
 https://pool.coin-miners.info <br />
 https://aikapool.com/sigt <br />
+http://zpool.ca <br />
 
 Tor Links:<br />
 Node: addnode=6jsbbxzfd5wyhs5i.onion<br />
