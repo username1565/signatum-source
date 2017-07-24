@@ -1,12 +1,3 @@
-  _____ _                   _                   <br />
- / ____(_)                 | |                  <br />
-| (___  _  __ _ _ __   __ _| |_ _   _ _ __ ___  <br />
-\___ \| |/ _` | '_ \ / _` | __| | | | '_ ` _ \ <br />
- ____) | | (_| | | | | (_| | |_| |_| | | | | | |<br />
-|_____/|_|\__, |_| |_|\__,_|\__|\__,_|_| |_| |_|<br />
-            __/ |               Development Team  <br />
-           |___/                                 <br />
-
 
 Very detailed info about Signatum & mining written by user Dan Jensen<br />
 Link: http://cryptovore.com/2017/07/19/how-to-mine-signatum-sigt <br />
