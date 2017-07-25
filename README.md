@@ -25,6 +25,7 @@ http://zpool.ca <br />
 Tor Links:<br />
 Node: addnode=6jsbbxzfd5wyhs5i.onion<br />
 Node: addnode=6fzxqhdvvevev75v.onion<br />
+Node: addnode-w3rimjo7drskmbbd.onion --Contributed by community member <br /> 
 Site: http://g6k4irnlnl57lusa.onion<br />
 Explorer: http://j7hjasnnxyjcjolf.onion<br />
 
