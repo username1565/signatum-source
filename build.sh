@@ -3,7 +3,6 @@
 set -e
 
 date
-ps axjf
 
 #################################################################
 # Update Ubuntu and install prerequisites for running Signatum   #
@@ -22,21 +21,22 @@ sudo add-apt-repository -y ppa:bitcoin/bitcoin
 sudo apt-get update
 sudo apt-get install -y libdb4.8-dev libdb4.8++-dev
 
-cd /usr/local
-file=/usr/local/signatumX
-if [ ! -e "$file" ]
-then
-        sudo git clone https://github.com/signatumproject/signatumX.git
+# By default, assume running within repo
+repo=$(pwd)
+file=$repo/src/signatumd
+if [ ! -e "$file" ]; then
+	# Now assume running outside and repo has been downloaded and named signatum
+	if [ ! -e "$repo/signatum/build.sh" ]; then
+		# if not, download the repo and name it signatum
+		sudo git clone https://github.com/signatumd/source signatum
+	fi
+	repo=$repo/signatum
+	file=$repo/src/signatumd
+	cd $repo/src/
 fi
+sudo make -j$NPROC -f makefile.unix
 
-cd /usr/local/signatumX/src
-file=/usr/local/signatumX/src/signatumd
-if [ ! -e "$file" ]
-then
-        sudo make -j$NPROC -f makefile.unix
-fi
-
-sudo cp /usr/local/signatumX/src/signatumd /usr/bin/signatumd
+sudo cp $repo/src/signatumd /usr/bin/signatumd
 
 ################################################################
 # Configure to auto start at boot                                      #
@@ -57,5 +57,4 @@ fi
 
 /usr/bin/signatumd
 echo "Signatum has been setup successfully and is running..."
-exit 0
 
