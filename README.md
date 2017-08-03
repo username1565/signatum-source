@@ -41,9 +41,9 @@ Cryptopia: https://www.cryptopia.co.nz/Exchange/?market=SIGT_BTC <br />
 Signatum Roadmap ver-1<br />
 —---------------------<br />
 1. Project dedicated explorer ( to be released as OpenSource under GPL ) - completed 24th July 2017<br />
-2. Whitepaper - task assigned to community member Dan Jensen for writeup with dev team<br />
-3. Update Website<br />
-4. Signatum Marketplace where people can trade goods and services using SIGT currency<br />
+2. Whitepaper - task assigned to community members - completed 2nd August 2017<br />
+3. Update Website - completed 2nd August 2017<br />
+4. Signatum Marketplace where people can trade goods and services using SIGT currency -under development<br />
 5. Better Anonymity network with more Tor nodes.<br />
 6. Signatum Web Wallet in NodeJS<br />
 7. SignatumPay<br />
