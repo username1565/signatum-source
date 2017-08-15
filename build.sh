@@ -28,15 +28,15 @@ if [ ! -e "$file" ]; then
 	# Now assume running outside and repo has been downloaded and named signatum
 	if [ ! -e "$repo/signatum/build.sh" ]; then
 		# if not, download the repo and name it signatum
-		sudo git clone https://github.com/signatumd/source signatum
+		git clone https://github.com/signatumd/source signatum
 	fi
 	repo=$repo/signatum
 	file=$repo/src/signatumd
 	cd $repo/src/
 fi
-sudo make -j$NPROC -f makefile.unix
+make -j$NPROC -f makefile.unix
 
-sudo cp $repo/src/signatumd /usr/bin/signatumd
+cp $repo/src/signatumd /usr/bin/signatumd
 
 ################################################################
 # Configure to auto start at boot                                      #
@@ -44,9 +44,9 @@ sudo cp $repo/src/signatumd /usr/bin/signatumd
 file=$HOME/.signatum
 if [ ! -e "$file" ]
 then
-        sudo mkdir $HOME/.signatum
+        mkdir $HOME/.signatum
 fi
-printf '%s\n%s\n%s\n%s\n' 'daemon=1' 'server=1' 'rpcuser=u' 'rpcpassword=p' | sudo tee $HOME/.signatum/signatum.conf
+printf '%s\n%s\n%s\n%s\n' 'daemon=1' 'server=1' 'rpcuser=u' 'rpcpassword=p' | tee $HOME/.signatum/signatum.conf
 file=/etc/init.d/signatum
 if [ ! -e "$file" ]
 then
