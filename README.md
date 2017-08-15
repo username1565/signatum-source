@@ -1,4 +1,7 @@
 <b> S-I-G-N-A-T-U-M  </b><br /><br />
+
+The only official members of the Signatum Team are Skankhunt42, The Doctor, Cryptovore, and Kahir.
+
 Very detailed info about Signatum & mining written by user Dan Jensen<br />
 Link: http://cryptovore.com/2017/07/19/how-to-mine-signatum-sigt <br />
 Dan Jensen's SIGT Address: BKkg3vMESMNnX2f5SqkuNNgEDxDU7w5vzo <br />
