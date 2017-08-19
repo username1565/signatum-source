@@ -42,6 +42,7 @@ Node: addnode=a4scscaet5aplljx.onion<br />
 Node: addnode-w3rimjo7drskmbbd.onion --Contributed by community member <br /> 
 Site: http://g6k4irnlnl57lusa.onion<br />
 Explorer: http://j7hjasnnxyjcjolf.onion<br />
+Marketplace: http://signatumllrf6vg6.onion<br />
 
 Paper Wallet:<br />
 http://paperwallet.signatum.io <br />
