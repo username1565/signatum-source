@@ -50,8 +50,8 @@ http://paperwallet.signatum.download <br />
 
 Exchange:<br />
 Cryptopia: https://www.cryptopia.co.nz/Exchange/?market=SIGT_BTC <br />
-https://novaexchange.com/market/BTC_SIGT/<br />
-https://www.dc-ex.com/exchange/index/BTC_SIGT<br />
+Nova: https://novaexchange.com/market/BTC_SIGT/<br />
+DCEX: https://www.dc-ex.com/exchange/index/BTC_SIGT<br />
 
 Signatum Roadmap ver-1<br />
 —---------------------<br />
