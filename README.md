@@ -1,6 +1,15 @@
 <b> S-I-G-N-A-T-U-M  </b><br /><br />
 
-The only official members of the Signatum Team are Skankhunt42, The Doctor, Cryptovore, and Kahir.
+The only official members of the Signatum Team are Skankhunt42, The Doctor, Cryptovore, and Kahir.<br />
+
+
+Marketplace Testers<br />
+
+Captminer (Discord), Flydancer, James Weir, John_Smith, PROXIMUS, Rapturoso, SlowGrowth, Squbs, Wedlock, Scotchegg, Eskodhi, Kasper, Lightning06, Itamar, and Zak.<br />
+
+Support Team<br />
+
+Captminer (Discord), Flydancer, James Weir, John_Smith, PROXIMUS, Rapturoso, SlowGrowth, Squbs, Wedlock, Scotchegg, Eskodhi, Kasper, Lightning06, Itamar, and Zak.<br />
 
 Very detailed info about Signatum & mining written by user Dan Jensen<br />
 Link: http://cryptovore.com/2017/07/19/how-to-mine-signatum-sigt <br />
