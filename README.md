@@ -1,3 +1,4 @@
+![Alt text](https://avatars3.githubusercontent.com/u/30251666?v=4&u=2637cc93eed9f5f7503d4875583547d221a49ff4&s=400 "Optional title")
 <b> S-I-G-N-A-T-U-M  </b><br /><br />
 
 The only official members of the Signatum Team are Skankhunt42, The Doctor, Cryptovore, and Kahir.<br />
