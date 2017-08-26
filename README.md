@@ -36,6 +36,7 @@ http://zpool.ca <br />
 http://pool.minertopia.org <br />
 
 Tor Links:<br />
+Node: addnode=ab7vmf6j2rajwo33.onion <br />
 Node: addnode=z6guowp3wn3fnekm.onion <br />
 Node: addnode=6jsbbxzfd5wyhs5i.onion<br />
 Node: addnode=6fzxqhdvvevev75v.onion<br />
