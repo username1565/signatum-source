@@ -62,9 +62,9 @@ Signatum Roadmap ver-1<br />
 1. Project dedicated explorer ( to be released as OpenSource under GPL ) - completed 24th July 2017<br />
 2. Whitepaper - task assigned to community members - completed 2nd August 2017<br />
 3. Update Website - completed 2nd August 2017<br />
-4. Signatum Marketplace where people can trade goods and services using SIGT currency -under development<br />
-5. Better Anonymity network with more Tor nodes.<br />
-6. Signatum Web Wallet in NodeJS<br />
+4. Signatum Marketplace where people can trade goods and services using SIGT currency -Completed<br />
+5. Better Anonymity network with more Tor nodes.-- Completed <br />
+6. Signatum Web Wallet in NodeJS -- under development <br />
 7. SignatumPay<br />
 8. More Exchanges<br />
 9. Signatum Crowdfunding platform<br />
