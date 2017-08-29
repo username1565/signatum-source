@@ -56,6 +56,7 @@ Exchange:<br />
 Cryptopia: https://www.cryptopia.co.nz/Exchange/?market=SIGT_BTC <br />
 Nova: https://novaexchange.com/market/BTC_SIGT/<br />
 DCEX: https://www.dc-ex.com/exchange/index/BTC_SIGT<br />
+Bitzure: https://bitzure.com/markets/sigtbtc <br />
 
 Signatum Roadmap ver-1<br />
 —---------------------<br />
