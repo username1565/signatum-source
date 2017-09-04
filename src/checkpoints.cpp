@@ -1,5 +1,5 @@
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2017 The Signatum Project
+// Copyright (c) 2017 The Signatum Project www.signatum.io
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -32,7 +32,13 @@ namespace Checkpoints
         (  9224,     uint256("0xea596b516a17fb4b46954d391e825d3976a14011b8e5020f3615d5cf13a2f12e") )
         (  14129,     uint256("0xb8c42b0ff384a45edc43da500dd2f3d5bcc73021310457832d6ce25423f7c79a") )
         (  19990,     uint256("0x6a5d35d862dd5ac0aed23ebb57b9d9bdd8a9afa1e5079f529a77ebd1bba7ad46") )
-        (  22648,     uint256("0xa39f9081df71fbd6d69cafb67cf22d2652678710d3b19f87830cba45b9257d03") )
+        (  26445,     uint256("0x8d55089d1aaa6e1d2cb7edd7a76db43876c6c07c164f47ec9df3a31d88017741") )
+        (  29909,     uint256("0x07818e1ed7fc0479e5bd811583a11edce8f455a63aaad3e2956176ec8a052617") )
+        (  30005,     uint256("0x86e3dd64f4c82325390e8bb584f721515ee186e4f67195c26b6567fc0a8078c2") ) // halving
+        (  32510,     uint256("0x62262d8f7fec52db4dc76ad9ace2cc9ec8989777e6d23e1417ffb6a4f2479733") )
+        (  38250,     uint256("0x742d6e65dda953576b4826dd07024cf18e1a7532547341bdd3c151308193b098") )
+        (  55353,     uint256("0x646e185bf3afbd01eba9df0b6eb96165ac2797c3991a3ff29e24c158797da2a1") )
+        (  65057,     uint256("0x8c7febd2bb382871835b690a4f9509bc32f77829ae4442fdeccf8592a52fbed5") ) // +second halving
     ;
 
     // TestNet has no checkpoints

@@ -1,4 +1,17 @@
+![Alt text](https://avatars3.githubusercontent.com/u/30251666?v=4&u=2637cc93eed9f5f7503d4875583547d221a49ff4&s=400 )<br />
 <b> S-I-G-N-A-T-U-M  </b><br /><br />
+
+The only official members of the Signatum Team are Skankhunt42, The Doctor, Cryptovore, and Kahir.<br />
+
+
+Marketplace Testers<br />
+
+Captminer (Discord), Flydancer, James Weir, John_Smith, PROXIMUS, Rapturoso, SlowGrowth, Squbs, Wedlock, Scotchegg, Eskodhi, Kasper, Lightning06, Itamar, and Zak.<br />
+
+Support Team<br />
+
+Captminer (Discord), Flydancer, James Weir, John_Smith, PROXIMUS, Rapturoso, SlowGrowth, Squbs, Wedlock, Scotchegg, Eskodhi, Kasper, Lightning06, Itamar, and Zak.<br />
+
 Very detailed info about Signatum & mining written by user Dan Jensen<br />
 Link: http://cryptovore.com/2017/07/19/how-to-mine-signatum-sigt <br />
 Dan Jensen's SIGT Address: BKkg3vMESMNnX2f5SqkuNNgEDxDU7w5vzo <br />
@@ -24,12 +37,16 @@ http://zpool.ca <br />
 http://pool.minertopia.org <br />
 
 Tor Links:<br />
+Node: addnode=tl3bna25hbr5r2eg.onion <br />
+Node: addnode=ab7vmf6j2rajwo33.onion <br />
+Node: addnode=z6guowp3wn3fnekm.onion <br />
 Node: addnode=6jsbbxzfd5wyhs5i.onion<br />
 Node: addnode=6fzxqhdvvevev75v.onion<br />
 Node: addnode=a4scscaet5aplljx.onion<br />
 Node: addnode-w3rimjo7drskmbbd.onion --Contributed by community member <br /> 
 Site: http://g6k4irnlnl57lusa.onion<br />
 Explorer: http://j7hjasnnxyjcjolf.onion<br />
+Marketplace: http://signatumllrf6vg6.onion<br />
 
 Paper Wallet:<br />
 http://paperwallet.signatum.io <br />
@@ -37,15 +54,18 @@ http://paperwallet.signatum.download <br />
 
 Exchange:<br />
 Cryptopia: https://www.cryptopia.co.nz/Exchange/?market=SIGT_BTC <br />
+Nova: https://novaexchange.com/market/BTC_SIGT/<br />
+DCEX: https://www.dc-ex.com/exchange/index/BTC_SIGT<br />
+Bitzure: https://bitzure.com/markets/sigtbtc <br />
 
 Signatum Roadmap ver-1<br />
 —---------------------<br />
 1. Project dedicated explorer ( to be released as OpenSource under GPL ) - completed 24th July 2017<br />
 2. Whitepaper - task assigned to community members - completed 2nd August 2017<br />
 3. Update Website - completed 2nd August 2017<br />
-4. Signatum Marketplace where people can trade goods and services using SIGT currency -under development<br />
-5. Better Anonymity network with more Tor nodes.<br />
-6. Signatum Web Wallet in NodeJS<br />
+4. Signatum Marketplace where people can trade goods and services using SIGT currency -Completed<br />
+5. Better Anonymity network with more Tor nodes.-- Completed <br />
+6. Signatum Web Wallet in NodeJS -- under development <br />
 7. SignatumPay<br />
 8. More Exchanges<br />
 9. Signatum Crowdfunding platform<br />
