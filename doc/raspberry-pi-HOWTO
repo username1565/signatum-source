@@ -6,7 +6,7 @@ Aftter a successful burn & eject , remove the microSD card from the writer and i
 HDMI Monitor or a TV. For video demonstration, just watch https://www.youtube.com/watch?v=GJDIgS8nres
 
 Default login is "pi" and password is "raspberry"
-Run raspi-config and enable ssh access on your Pi first. 
+Run raspi-config and enable ssh access on your Pi first. ( you have to use sudo there )
 Read: http://www.instructables.com/id/Use-ssh-to-talk-with-your-Raspberry-Pi/
 Find out the IP address of your Pi by loggin into your home DSL/Fiber device. It will show as "pi".
 
