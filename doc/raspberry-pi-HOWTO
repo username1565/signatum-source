@@ -1,0 +1,47 @@
+Head over to https://www.raspberrypi.org/downloads/raspbian/ and download the LITE version. As of writing this, it is RASPBIAN STRETCH LITE. <br />
+Extract the file with .img extension only from the compressed archieve.<br />
+Download the microSD card burner from https://etcher.io <br />
+Insert your microSD card reader/writer and burn the .img file on your microSD card.<br />
+Aftter a successful burn & eject , remove the microSD card from the writer and insert it into Raspberry Pi and hook it up with a HDMI Monitor or a TV<br />
+For video demonstration, just watch https://www.youtube.com/watch?v=GJDIgS8nres <br /><br />
+
+Default login is "pi" and password is "raspberry"<br />
+
+From now on, just paste the following commands to your raspberry<br />
+
+sudo passwd (set up sudo access. its self explanatory)<br />
+sudo apt-get update<br />
+sudo apt-get upgrade -y<br />
+sudo apt-get install build-essential libssl-dev libdb++-dev libdb-dev libboost-all-dev libqrencode-dev libminiupnpc-dev nano git<br />
+sudo git clone https://github.com/signatumd/source.git<br />
+cd source/src/leveldb/<br />
+chmod +x build_detect_platform<br />
+make libleveldb.a libmemenv.a<br />
+cd .. .. ( its two times .. with a space )<br />
+make -f makefile.unix -j2 ( this will build the wallet / daemon for your Pi. Patience there ...)<br />
+strip signatumd<br />
+sudo mv signatumd /usr/bin<br />
+signatumd ( run it once and wait for it to give you a config missing error )<br />
+cd ( enter )<br />
+cd .signatumd<br />
+wget https://raw.githubusercontent.com/signatumd/releases/master/signatum.conf<br />
+cd ( enter )<br />
+signatumd ( enter )<br />
+
+^ this runs the wallet or the daemon. You can check the sync progress by issuing:<br />
+
+tailf -f .signatumd/debug.log ( press Ctrl+C to cancel )<br />
+
+Get a wallet address<br />
+
+signatumd getnewaddress ( enter )<br />
+
+Copy that address and send 1 SIGT as a test. Wait for a block confirmation and it should show up after you do a :<br />
+
+signatumd getbalance ( enter )<br />
+
+Thats pretty much it. Ask me for tips on Discord or Telegram.<br /><br />
+
+-The Doctor<br />
+
+
