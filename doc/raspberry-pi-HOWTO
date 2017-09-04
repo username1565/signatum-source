@@ -1,47 +1,46 @@
-Head over to https://www.raspberrypi.org/downloads/raspbian/ and download the LITE version. As of writing this, it is RASPBIAN STRETCH LITE. <br />
-Extract the file with .img extension only from the compressed archieve.<br />
-Download the microSD card burner from https://etcher.io <br />
-Insert your microSD card reader/writer and burn the .img file on your microSD card.<br />
-Aftter a successful burn & eject , remove the microSD card from the writer and insert it into Raspberry Pi and hook it up with a HDMI Monitor or a TV<br />
-For video demonstration, just watch https://www.youtube.com/watch?v=GJDIgS8nres <br /><br />
+Head over to https://www.raspberrypi.org/downloads/raspbian/ and download the LITE version. As of writing this, it is RASPBIAN STRETCH LITE. 
+Extract the file with .img extension only from the compressed archieve.
+Download the microSD card burner from https://etcher.io
+Insert your microSD card reader/writer and burn the .img file on your microSD card.
+Aftter a successful burn & eject , remove the microSD card from the writer and insert it into Raspberry Pi and hook it up with a HDMI Monitor or a TV
+For video demonstration, just watch https://www.youtube.com/watch?v=GJDIgS8nres
 
-Default login is "pi" and password is "raspberry"<br />
+Default login is "pi" and password is "raspberry"
 
-From now on, just paste the following commands to your raspberry<br />
+From now on, just paste the following commands to your raspberry
 
-sudo passwd (set up sudo access. its self explanatory)<br />
-sudo apt-get update<br />
-sudo apt-get upgrade -y<br />
-sudo apt-get install build-essential libssl-dev libdb++-dev libdb-dev libboost-all-dev libqrencode-dev libminiupnpc-dev nano git<br />
-sudo git clone https://github.com/signatumd/source.git<br />
-cd source/src/leveldb/<br />
-chmod +x build_detect_platform<br />
-make libleveldb.a libmemenv.a<br />
-cd .. .. ( its two times .. with a space )<br />
-make -f makefile.unix -j2 ( this will build the wallet / daemon for your Pi. Patience there ...)<br />
-strip signatumd<br />
-sudo mv signatumd /usr/bin<br />
-signatumd ( run it once and wait for it to give you a config missing error )<br />
-cd ( enter )<br />
-cd .signatumd<br />
-wget https://raw.githubusercontent.com/signatumd/releases/master/signatum.conf<br />
-cd ( enter )<br />
-signatumd ( enter )<br />
+sudo passwd (set up sudo access. its self explanatory)
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt-get install build-essential libssl-dev libdb++-dev libdb-dev libboost-all-dev libqrencode-dev libminiupnpc-dev nano git
+sudo git clone https://github.com/signatumd/source.git
+cd source/src/leveldb/
+chmod +x build_detect_platform
+make libleveldb.a libmemenv.a
+cd .. .. ( its two times .. with a space )
+make -f makefile.unix -j2 ( this will build the wallet / daemon for your Pi. Patience there ...)
+strip signatumd
+sudo mv signatumd /usr/bin
+signatumd ( run it once and wait for it to give you a config missing error )
+cd ( enter )
+cd .signatumd
+wget https://raw.githubusercontent.com/signatumd/releases/master/signatum.conf
+cd ( enter )
+signatumd ( enter )
 
-^ this runs the wallet or the daemon. You can check the sync progress by issuing:<br />
+^ this runs the wallet or the daemon. You can check the sync progress by issuing:
 
-tailf -f .signatumd/debug.log ( press Ctrl+C to cancel )<br />
+tailf -f .signatumd/debug.log ( press Ctrl+C to cancel )
 
-Get a wallet address<br />
+Get a wallet address
 
-signatumd getnewaddress ( enter )<br />
+signatumd getnewaddress ( enter )
 
-Copy that address and send 1 SIGT as a test. Wait for a block confirmation and it should show up after you do a :<br />
+Copy that address and send 1 SIGT as a test. Wait for a block confirmation and it should show up after you do a :
 
-signatumd getbalance ( enter )<br />
+signatumd getbalance ( enter )
 
-Thats pretty much it. Ask me for tips on Discord or Telegram.<br /><br />
+Thats pretty much it. Ask me for tips on Discord or Telegram.
 
--The Doctor<br />
-
+-The Doctor
 
