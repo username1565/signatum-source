@@ -2,10 +2,13 @@ Head over to https://www.raspberrypi.org/downloads/raspbian/ and download the LI
 Extract the file with .img extension only from the compressed archieve.
 Download the microSD card burner from https://etcher.io
 Insert your microSD card reader/writer and burn the .img file on your microSD card.
-Aftter a successful burn & eject , remove the microSD card from the writer and insert it into Raspberry Pi and hook it up with a HDMI Monitor or a TV
-For video demonstration, just watch https://www.youtube.com/watch?v=GJDIgS8nres
+Aftter a successful burn & eject , remove the microSD card from the writer and insert it into Raspberry Pi and hook it up with a 
+HDMI Monitor or a TV. For video demonstration, just watch https://www.youtube.com/watch?v=GJDIgS8nres
 
 Default login is "pi" and password is "raspberry"
+Run raspi-config and enable ssh access on your Pi first. 
+Read: http://www.instructables.com/id/Use-ssh-to-talk-with-your-Raspberry-Pi/
+Find out the IP address of your Pi by loggin into your home DSL/Fiber device. It will show as "pi".
 
 From now on, just paste the following commands to your raspberry
 
