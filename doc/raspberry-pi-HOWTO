@@ -1,5 +1,5 @@
-Head over to https://www.raspberrypi.org/downloads/raspbian/ and download the LITE version. As of writing this, it is RASPBIAN STRETCH LITE. 
-Extract the file with .img extension only from the compressed archieve.
+Head over to https://www.raspberrypi.org/downloads/raspbian/ and download the LITE version. As of writing this, it is 
+RASPBIAN STRETCH LITE. Extract the file with .img extension only from the compressed archieve.
 Download the microSD card burner from https://etcher.io
 Insert your microSD card reader/writer and burn the .img file on your microSD card.
 Aftter a successful burn & eject , remove the microSD card from the writer and insert it into Raspberry Pi and hook it up with a 
