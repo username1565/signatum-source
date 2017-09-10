@@ -18,8 +18,8 @@ sudo apt-get upgrade -y
 sudo apt-get install build-essential libssl-dev libdb++-dev libdb-dev libboost-all-dev libqrencode-dev libminiupnpc-dev nano git
 sudo git clone https://github.com/signatumd/source.git
 cd source/src/leveldb/
-chmod +x build_detect_platform
-make libleveldb.a libmemenv.a
+sudo chmod +x build_detect_platform
+sudo make libleveldb.a libmemenv.a
 cd .. .. ( its two times .. with a space )
 make -f makefile.unix -j2 ( this will build the wallet / daemon for your Pi. Patience there ...)
 strip signatumd
