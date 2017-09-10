@@ -21,8 +21,8 @@ cd source/src/leveldb/
 sudo chmod +x build_detect_platform
 sudo make libleveldb.a libmemenv.a
 cd .. .. ( its two times .. with a space )
-make -f makefile.unix -j2 ( this will build the wallet / daemon for your Pi. Patience there ...)
-strip signatumd
+sudo make -f makefile.unix -j2 ( this will build the wallet / daemon for your Pi. Patience there ...)
+sudo strip signatumd
 sudo mv signatumd /usr/bin
 signatumd ( run it once and wait for it to give you a config missing error )
 cd ( enter )
