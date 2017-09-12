@@ -54,6 +54,7 @@ http://paperwallet.signatum.download <br />
 
 Exchange:<br />
 Cryptopia: https://www.cryptopia.co.nz/Exchange/?market=SIGT_BTC <br />
+Yobit: https://yobit.net/en/trade/SIGT/BTC <br />
 Nova: https://novaexchange.com/market/BTC_SIGT/<br />
 DCEX: https://www.dc-ex.com/exchange/index/BTC_SIGT<br />
 Bitzure: https://bitzure.com/markets/sigtbtc <br />
