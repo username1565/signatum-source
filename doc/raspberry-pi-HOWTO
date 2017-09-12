@@ -55,6 +55,15 @@ signatumd getinfo ( enter )
 
 Make sure it says "staking: true:
 
+If you wish to take backup of your staking wallet or copy over your current desktop wallet, use WinSCP or Filezilla client.
+Be sure to specy IP, user and password in the file transfer client. Protocol should be SCP and port 22. For Filezilla,
+user the following :
+
+host: sftp://pi-ipaddress user: pi password:your-password port:22
+
+Jump to .signatum folder and copy the wallet.dat or place your wallet backup there in that folder. ( Important: Make sure signatumd stop)
+is done before you do this.
+
 Thats pretty much it. Ask me for tips on Discord or Telegram on how to stake SIGT on your PI.
 
 -The Doctor
