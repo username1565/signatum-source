@@ -43,6 +43,18 @@ Copy that address and send 1 SIGT as a test. Wait for a block confirmation and i
 
 signatumd getbalance ( enter )
 
+To enable staking on your Pi device, edit signatum.conf file located in .signatum folder.
+
+sudo nano .signatum/signatum.conf ( enter )
+
+add line "staking=1" ( Press Ctrl + X to exit while saving "
+
+signatumd stop (enter)
+signatumd (enter)
+signatumd getinfo ( enter )
+
+Make sure it says "staking: true:
+
 Thats pretty much it. Ask me for tips on Discord or Telegram on how to stake SIGT on your PI.
 
 -The Doctor
