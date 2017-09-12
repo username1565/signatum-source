@@ -61,8 +61,8 @@ user the following :
 
 host: sftp://pi-ipaddress user: pi password:your-password port:22
 
-Jump to .signatum folder and copy the wallet.dat or place your wallet backup there in that folder. ( Important: Make sure signatumd stop)
-is done before you do this.
+Jump to .signatum folder and copy the wallet.dat or place your wallet backup there in that folder. ( Important: Make sure 
+signatumd stop) is done before you do this.
 
 Thats pretty much it. Ask me for tips on Discord or Telegram on how to stake SIGT on your PI.
 
