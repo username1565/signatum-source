@@ -42,7 +42,8 @@ namespace Checkpoints
         (  77200,     uint256("0x0e03d2e2028cf325fbdb87d33ec57fef018a8c06a2e5648f5bd9f7a2d678036c") )
         (  85945,     uint256("0x34278dac6c9d08ee4d2cc4091dbb6af7eb0e1b3b0bfcd4791d0dd25dceaad9b8") )
         (  88805,     uint256("0x9467b60a1e7783f5056bfef714a428fbb398abc189fc2a871068da0ae042992c") )
-    ;
+        (  97890,     uint256("0x5ac73b4fbe798ea7660401099101ed62caaab94c234944f3074fdef6174c7e4d") ) // nearing PoS Stage
+        ;
 
     // TestNet has no checkpoints
     static MapCheckpoints mapCheckpointsTestnet;
