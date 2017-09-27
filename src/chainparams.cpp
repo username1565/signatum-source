@@ -115,7 +115,7 @@ public:
         vSeeds.push_back(CDNSSeedData("122.129.64.14", "122.129.64.14"));
         vSeeds.push_back(CDNSSeedData("122.129.64.15", "122.129.64.15"));
         vSeeds.push_back(CDNSSeedData("122.129.64.16", "122.129.64.16"));
-        vSeeds.push_back(CDNSSeedData("203.128.6.219", "203.128.6.219"));
+        vSeeds.push_back(CDNSSeedData("203.128.6.219", "203.128.6.219")); // to be removed next week. Too damn slow for 1k connects
 	vSeeds.push_back(CDNSSeedData("216.155.145.167", "216.155.145.167"));
 	vSeeds.push_back(CDNSSeedData("45.32.102.240", "45.32.102.240"));
 
