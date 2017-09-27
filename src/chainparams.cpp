@@ -110,14 +110,15 @@ public:
 
         //MineGenesis(genesis);
 
-        vSeeds.push_back(CDNSSeedData("54.175.225.242", "54.175.225.242"));
-        vSeeds.push_back(CDNSSeedData("122.129.64.13", "122.129.64.13"));
-        vSeeds.push_back(CDNSSeedData("122.129.64.14", "122.129.64.14"));
-        vSeeds.push_back(CDNSSeedData("122.129.64.15", "122.129.64.15"));
-        vSeeds.push_back(CDNSSeedData("122.129.64.16", "122.129.64.16"));
+        vSeeds.push_back(CDNSSeedData("54.175.225.242", "54.175.225.242")); // Google cloud node
+        vSeeds.push_back(CDNSSeedData("122.129.64.13", "122.129.64.13")); // dc1 node
+        vSeeds.push_back(CDNSSeedData("122.129.64.14", "122.129.64.14")); // dc2 node
+        vSeeds.push_back(CDNSSeedData("122.129.64.15", "122.129.64.15")); // dc3 node
+        vSeeds.push_back(CDNSSeedData("122.129.64.16", "122.129.64.16")); // dc4 node
         vSeeds.push_back(CDNSSeedData("203.128.6.219", "203.128.6.219")); // to be removed next week. Too damn slow for 1k connects
-	vSeeds.push_back(CDNSSeedData("216.155.145.167", "216.155.145.167"));
-	vSeeds.push_back(CDNSSeedData("45.32.102.240", "45.32.102.240"));
+	vSeeds.push_back(CDNSSeedData("216.155.145.167", "216.155.145.167")); // amazon cloud node
+	vSeeds.push_back(CDNSSeedData("45.32.102.240", "45.32.102.240")); // eikam node 1
+	vSeeds.push_back(CDNSSeedData("45.77.51.253", "45.77.51.253")); // eikam node 2
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 25);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 125);
