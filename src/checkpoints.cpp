@@ -43,6 +43,8 @@ namespace Checkpoints
         (  85945,     uint256("0x34278dac6c9d08ee4d2cc4091dbb6af7eb0e1b3b0bfcd4791d0dd25dceaad9b8") )
         (  88805,     uint256("0x9467b60a1e7783f5056bfef714a428fbb398abc189fc2a871068da0ae042992c") )
         (  97890,     uint256("0x5ac73b4fbe798ea7660401099101ed62caaab94c234944f3074fdef6174c7e4d") ) // nearing PoS Stage
+        (  98500,     uint256("0x22321632765b6483e49e0e470b3f45a95fe3b2ef46b9eba900210a49c4407497") ) // PoS stage block
+        (  99127,     uint256("0x9c62183731de95bcd5114973b987930b4efd225ac78be6d4788e55f566ac8494") ) // beyond PoS trigger
         ;
 
     // TestNet has no checkpoints
