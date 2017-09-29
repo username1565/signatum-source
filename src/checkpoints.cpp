@@ -21,8 +21,8 @@ namespace Checkpoints
 
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-        (  0,     uint256("0x00000c325a3586e495e56bccedf9a8bf6dc21d91df7a8ae1151627c2c3351c99") )
-        (  500,     uint256("0xc842ceeb227fafaeb90c9b3c820da8f2c1d7debd77ab9f879bf975add00c48ab") )
+        (  0,     uint256("0x00000c325a3586e495e56bccedf9a8bf6dc21d91df7a8ae1151627c2c3351c99") ) // here we go
+        (  500,     uint256("0xc842ceeb227fafaeb90c9b3c820da8f2c1d7debd77ab9f879bf975add00c48ab") ) // init first checkpoint
         (  750,     uint256("0xbb5b5f8f4052dde501d2aad794c49347222a7f900b1097607e0492a4d11bd287") )
         (  1250,     uint256("0x6dc761812a65430115dd49a6da3ffc1e4f66bdb089a30fe43a12c7bd60f5ed0d") )
         (  1810,     uint256("0xb524c9c69bad926472b04138c2d3c934045d4d0be9199a042ecf794a82e1799f") )
@@ -45,6 +45,7 @@ namespace Checkpoints
         (  97890,     uint256("0x5ac73b4fbe798ea7660401099101ed62caaab94c234944f3074fdef6174c7e4d") ) // nearing PoS Stage
         (  98500,     uint256("0x22321632765b6483e49e0e470b3f45a95fe3b2ef46b9eba900210a49c4407497") ) // PoS stage block
         (  99127,     uint256("0x9c62183731de95bcd5114973b987930b4efd225ac78be6d4788e55f566ac8494") ) // beyond PoS trigger
+        (  100590,     uint256("0x4064f1aee53b5306532b8cdb6e058ab79f899fa85ce15f7c27c7a2b62e6691b0") ) // full PoS checkpoint -1
         ;
 
     // TestNet has no checkpoints
