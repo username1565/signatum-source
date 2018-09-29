@@ -107,10 +107,22 @@ Issues with no commits will be given a similar warning, and closed after
 labeled 'stale'.
 _____________________________________________________________________
 Changes from username1565:
-Also I have HFS server there: 42k5tcpg7bhjjaze.onion and this working in Tor Browser.
-You can also open this here: https://42k5tcpg7bhjjaze.onion.to/
-Here you can find first version of signatum-qt.exe + bootstrap
 - addnode list from here: https://bitcointalk.org/index.php?topic=2303471.msg27987662#msg27987662
+
+Also I have HFS server there: 42k5tcpg7bhjjaze.onion and this working in Tor Browser.
+You can also open this from the Internet - here:
+https://42k5tcpg7bhjjaze.onion.to/
+https://42k5tcpg7bhjjaze.onion.top/
+http://42k5tcpg7bhjjaze.onion.pet/
+http://42k5tcpg7bhjjaze.onion.link/
+https://42k5tcpg7bhjjaze.onion.rip/
+Here you can find the first version of signatum-qt.exe + blockchain bootstrap to make fast synchonization.
+Now this is a POS-coin (Proof of stake). POW-phase (Proof-of-Work) - expired.
+To confirm the transactions in the network, need to enable the POS-mining.
+To do this, just add the following string to signatum.conf:
+  staking=1
+
+Addnode list from that post - here:
 _____________________________________________________________________
 addnode=coinsmarkets.com:33333
 
