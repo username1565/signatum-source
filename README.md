@@ -108,9 +108,7 @@ labeled 'stale'.
 _____________________________________________________________________
 Changes from username1565:
 
-- addnode list from here: https://bitcointalk.org/index.php?topic=2303471.msg27987662#msg27987662
-
-Also I have HFS server there: 42k5tcpg7bhjjaze.onion and this working in Tor Browser.
+I have HFS server there: 42k5tcpg7bhjjaze.onion and this working in Tor Browser.
 
 You can also open this from the Internet - here:
 
@@ -134,11 +132,13 @@ To do this, just add the following string to signatum.conf:
 
   staking=1
 
-Addnode list from that post - here:
+Addnode list from - here: https://bitcointalk.org/index.php?topic=2303471.msg27987662#msg27987662
 _____________________________________________________________________
 addnode=coinsmarkets.com:33333
 
 addnode=node.611.to:33333
+
+addnode=biehl.selfhost.me:33333
 
 addnode=novaexchange.com:33333
 
