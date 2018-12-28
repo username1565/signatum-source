@@ -138,8 +138,6 @@ addnode=coinsmarkets.com:33333
 
 addnode=node.611.to:33333
 
-addnode=biehl.selfhost.me:33333
-
 addnode=novaexchange.com:33333
 
 addnode=sigt.suprnova.cc
