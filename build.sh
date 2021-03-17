@@ -16,7 +16,9 @@ echo "nproc: $NPROC"
 #################################################################
 # Install all necessary packages for building Signatum           #
 #################################################################
-sudo apt-get install -y qt4-qmake libqt4-dev libminiupnpc-dev libdb++-dev libdb-dev libcrypto++-dev libqrencode-dev libboost-all-dev build-essential libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev libssl-dev libdb++-dev libssl-dev ufw git
+sudo apt-get install -y qt4-qmake libqt4-dev libminiupnpc-dev libdb++-dev libdb-dev libcrypto++-dev libqrencode-dev libboost-all-dev build-essential libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev libdb++-dev ufw git software-properties-common
+sudo apt-get install -y openssl1.0=1.0.2n-1ubuntu5.6 libssl1.0.0=1.0.2n-1ubuntu5.6 libssl1.0-dev=1.0.2n-1ubuntu5.6
+
 sudo add-apt-repository -y ppa:bitcoin/bitcoin
 sudo apt-get update
 sudo apt-get install -y libdb4.8-dev libdb4.8++-dev
@@ -26,17 +28,19 @@ repo=$(pwd)
 file=$repo/src/signatumd
 if [ ! -e "$file" ]; then
 	# Now assume running outside and repo has been downloaded and named signatum
-	if [ ! -e "$repo/signatum/build.sh" ]; then
+	if [ ! -e "$repo/build.sh" ] || [ ! -e "$repo/signatum-qt.pro" ] || [ ! -d "$repo/src" ] ; then
+		sudo cp build.sh ../build.sh
+		cd ../
+		rm -rf $repo
 		# if not, download the repo and name it signatum
-		git clone https://github.com/signatumd/source signatum
+		git clone https://github.com/username1565/signatum-source $repo
+		sudo cp build.sh $repo/build.sh
 	fi
-	repo=$repo/signatum
-	file=$repo/src/signatumd
-	cd $repo/src/
 fi
+cd $repo/src/
 make -j$NPROC -f makefile.unix
 
-cp $repo/src/signatumd /usr/bin/signatumd
+sudo cp $repo/src/signatumd /usr/bin/signatumd
 
 ################################################################
 # Configure to auto start at boot                                      #
